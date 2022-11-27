@@ -15,7 +15,7 @@ provider "aws" {
 
 
 
-resource "aws_s3_bucket" "b" {
+resource "aws_s3_bucket" "keenson-bk" {
   bucket = "my-tf-test-bucket"
 
   tags = {
